@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Parth Pathak · Laravel / PHP Backend Developer</title>
-<meta name="description" content="Parth Pathak is a Laravel / PHP backend developer in Ahmedabad, India, building REST APIs, admin panels and business applications for e-commerce, healthcare and e-learning.">
+<title>Parth Pathak · Laravel / PHP Developer</title>
+<meta name="description" content="Parth Pathak is a Laravel / PHP developer in Ahmedabad, India, building REST APIs, admin panels and business applications for e-commerce, healthcare and LMS platforms.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Parth Pathak · Laravel / PHP Backend Developer">
-<meta property="og:description" content="Parth Pathak is a Laravel / PHP backend developer in Ahmedabad, India, building REST APIs, admin panels and business applications for e-commerce, healthcare and e-learning.">
+<meta property="og:title" content="Parth Pathak · Laravel / PHP Developer">
+<meta property="og:description" content="Parth Pathak is a Laravel / PHP developer in Ahmedabad, India, building REST APIs, admin panels and business applications for e-commerce, healthcare and LMS platforms.">
 <meta property="og:url" content="https://parthpathak2001.github.io/">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#FBFAF8" media="(prefers-color-scheme: light)">
@@ -257,9 +257,7 @@ h2 {
 }
 .sec-intro { color: var(--ink-2); max-width: 40em; margin: -14px 0 32px; }
 
-.does { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 40px; }
-.do h3 { font-size: var(--step-0); font-weight: 600; margin: 0 0 8px; padding-top: 14px; border-top: 2px solid var(--ink); }
-.do p { color: var(--ink-2); max-width: 36em; }
+.summary { font-size: var(--step-1); line-height: 1.65; max-width: 40em; }
 
 .jobs { list-style: none; margin: 0; padding: 0; }
 .job { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 8px 32px; padding-block: 28px; border-top: 1px solid var(--line); }
@@ -316,6 +314,7 @@ h2 {
 .edu-item h3 { font-family: var(--font-display); font-size: var(--step-1); font-weight: 700; letter-spacing: -0.01em; margin: 0 0 4px; }
 .edu-item p { color: var(--ink-2); }
 .edu-item .when { font: 13px/1.6 var(--font-mono); color: var(--muted); margin-top: 4px; font-variant-numeric: tabular-nums; }
+.edu-item .cgpa { margin-top: 6px; font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; }
 .langs { margin-top: 32px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; color: var(--ink-2); }
 
 .contact h2 { font-size: clamp(2rem, 1.25rem + 3.2vw, 3.25rem); line-height: 1.05; max-width: 15em; margin-bottom: 32px; }
@@ -347,7 +346,7 @@ h2 {
 @media (max-width: 720px) {
   .mark-name, .nav .opt { display: none; }
   .nav a { padding: 6px 8px; font-size: 0.875rem; }
-  .feat, .does, .edu { grid-template-columns: minmax(0, 1fr); }
+  .feat, .edu { grid-template-columns: minmax(0, 1fr); }
   .job { grid-template-columns: minmax(0, 1fr); }
   .job-when b { display: inline; margin-right: 10px; }
   .ledger li { grid-template-columns: minmax(0, 1fr); }
@@ -390,13 +389,13 @@ h2 {
       <div class="hero-id">
         <p class="status"><span class="dot" aria-hidden="true"></span>Open to backend roles and collaborations</p>
         <h1>Parth Pathak</h1>
-        <p class="role">Laravel <span class="slash">/</span> PHP Backend Developer</p>
-        <p class="lede">I build REST APIs, admin panels and business applications for e-commerce, healthcare and e-learning products, mostly with Laravel and CodeIgniter on MySQL and PostgreSQL.</p>
+        <p class="role">Laravel <span class="slash">/</span> PHP Developer</p>
+        <p class="lede">I build REST APIs, admin panels and business applications for e-commerce, healthcare and LMS platforms, mostly with Laravel and CodeIgniter on MySQL and PostgreSQL.</p>
         <p class="learn">Always eager to learn new technologies and pick up new tools, frameworks and best practices.</p>
         <ul class="facts">
           <li><span>Experience</span>5 years</li>
           <li><span>Based in</span>Ahmedabad, India</li>
-          <li><span>Currently</span>PHP Developer at Let&#x27;s Enkindle</li>
+          <li><span>Currently</span>PHP Developer at Let’s Enkindle</li>
         </ul>
         <div class="cta">
           <a class="btn btn-primary" href="#contact">Get in touch</a>
@@ -412,13 +411,14 @@ h2 {
         </div>
         <pre class="api-body" id="res-profile" role="tabpanel" aria-labelledby="tab-profile"><code><span class="p">{</span>
   <span class="k">&quot;name&quot;</span><span class="p">:</span> <span class="s">&quot;Parth S. Pathak&quot;</span><span class="p">,</span>
-  <span class="k">&quot;role&quot;</span><span class="p">:</span> <span class="s">&quot;Laravel / PHP Backend Developer&quot;</span><span class="p">,</span>
+  <span class="k">&quot;role&quot;</span><span class="p">:</span> <span class="s">&quot;Laravel / PHP Developer&quot;</span><span class="p">,</span>
   <span class="k">&quot;experience_years&quot;</span><span class="p">:</span> <span class="n">5</span><span class="p">,</span>
+  <span class="k">&quot;projects&quot;</span><span class="p">:</span> <span class="s">&quot;30+&quot;</span><span class="p">,</span>
   <span class="k">&quot;location&quot;</span><span class="p">:</span> <span class="s">&quot;Ahmedabad, India&quot;</span><span class="p">,</span>
   <span class="k">&quot;current_company&quot;</span><span class="p">:</span> <span class="s">&quot;Let&#x27;s Enkindle&quot;</span><span class="p">,</span>
   <span class="k">&quot;domains&quot;</span><span class="p">:</span> <span class="p">[</span>
     <span class="s">&quot;e-commerce&quot;</span><span class="p">,</span> <span class="s">&quot;healthcare&quot;</span><span class="p">,</span>
-    <span class="s">&quot;e-learning&quot;</span><span class="p">,</span> <span class="s">&quot;real estate&quot;</span>
+    <span class="s">&quot;LMS&quot;</span><span class="p">,</span> <span class="s">&quot;real estate&quot;</span>
   <span class="p">]</span><span class="p">,</span>
   <span class="k">&quot;open_to&quot;</span><span class="p">:</span> <span class="p">[</span>
     <span class="s">&quot;backend roles&quot;</span><span class="p">,</span> <span class="s">&quot;collaborations&quot;</span>
@@ -434,10 +434,8 @@ h2 {
   <span class="k">&quot;async&quot;</span><span class="p">:</span> <span class="p">[</span>
     <span class="s">&quot;Queues&quot;</span><span class="p">,</span> <span class="s">&quot;Redis&quot;</span><span class="p">,</span> <span class="s">&quot;Socket.IO&quot;</span>
   <span class="p">]</span><span class="p">,</span>
-  <span class="k">&quot;integrations&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="s">&quot;Salesforce&quot;</span><span class="p">,</span> <span class="s">&quot;Azure&quot;</span><span class="p">,</span> <span class="s">&quot;Availity&quot;</span>
-  <span class="p">]</span><span class="p">,</span>
-  <span class="k">&quot;frontend&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s">&quot;Next.js&quot;</span><span class="p">,</span> <span class="s">&quot;jQuery&quot;</span><span class="p">,</span> <span class="s">&quot;AJAX&quot;</span><span class="p">]</span>
+  <span class="k">&quot;integrations&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s">&quot;Salesforce&quot;</span><span class="p">,</span> <span class="s">&quot;Azure&quot;</span><span class="p">]</span><span class="p">,</span>
+  <span class="k">&quot;frontend&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s">&quot;Blade&quot;</span><span class="p">,</span> <span class="s">&quot;jQuery&quot;</span><span class="p">,</span> <span class="s">&quot;Next.js&quot;</span><span class="p">]</span>
 <span class="p">}</span></code><span class="caret" aria-hidden="true"></span></pre><pre class="api-body" id="res-experience" role="tabpanel" aria-labelledby="tab-experience" hidden><code><span class="p">[</span>
   <span class="p">{</span>
     <span class="k">&quot;company&quot;</span><span class="p">:</span> <span class="s">&quot;Let&#x27;s Enkindle&quot;</span><span class="p">,</span>
@@ -463,8 +461,8 @@ h2 {
       <div class="wrap">
         <p class="rail"><span>/about</span></p>
         <div class="sec-body">
-        <h2 id="about-h">What I do</h2>
-        <div class="does"><div class="do"><h3>APIs &amp; integrations</h3><p>REST APIs secured with Laravel Passport and Sanctum, and integrations with Salesforce, Azure-based services, Availity and WhatsApp messaging.</p></div><div class="do"><h3>Data &amp; performance</h3><p>Schema design and query tuning on MySQL and PostgreSQL, such as replacing a subquery with a LEFT JOIN after profiling an eligibility query with Laravel Telescope.</p></div><div class="do"><h3>Background processing</h3><p>Queues, background jobs and Redis-based processing, real-time notifications with Socket.IO, and API data synchronization between systems.</p></div><div class="do"><h3>Production support</h3><p>UAT, live deployments and troubleshooting across databases, SMTP/email, file uploads, cron jobs and application errors.</p></div></div>
+        <h2 id="about-h">About</h2>
+        <p class="summary">Laravel Developer with 5 years of experience building REST APIs, admin panels, and business applications for e-commerce, healthcare, and LMS platforms. Strong in Laravel, CodeIgniter, Passport/Sanctum authentication, MySQL/PostgreSQL, Redis, and third-party API integrations. Experienced in database optimization, background processing, data synchronization, UAT, production troubleshooting, and deployment support. Contributed to 30+ client and company projects.</p>
         </div>
       </div>
     </section>
@@ -478,7 +476,7 @@ h2 {
           <p class="job-when"><b>Jul 2025 – Present</b>Ahmedabad, Gujarat</p>
           <div class="job-what">
             <h3>PHP Developer<span class="now">Current</span></h3>
-            <p class="co">Let&#x27;s Enkindle</p>
+            <p class="co">Let’s Enkindle</p>
             <ul><li>Build and maintain web applications and REST APIs using PHP, Laravel and CodeIgniter for e-commerce, healthcare, LMS and internal business systems.</li><li>Develop business modules covering products, orders, customers, payments, appointments, notifications, reports and admin workflows.</li><li>Implement background jobs, Redis-based processing and API data synchronization for application workflows.</li><li>Troubleshoot and resolve UAT and production issues involving databases, SMTP/email, file uploads, application errors and deployments.</li><li>Develop responsive frontend functionality using HTML, CSS, Bootstrap, JavaScript, jQuery and AJAX.</li></ul>
           </div>
         </li><li class="job">
@@ -505,58 +503,58 @@ h2 {
         <p class="rail"><span>/projects</span></p>
         <div class="sec-body">
         <h2 id="projects-h">Projects</h2>
-        <p class="sec-intro">Most of this is client work in private company repositories, so projects are described by what they do rather than by client name.</p>
+        <p class="sec-intro">Client and company work. The code is in private company repositories, so each project lists what I built and the technologies used.</p>
         <div class="feat"><article class="card">
-            <p class="dom">E-commerce</p>
-            <h3>Jewellery e-commerce platform</h3>
-            <p>Storefront and admin for a jewellery brand that sells in India and the US.</p>
-            <ul class="did"><li>Product management, pricing and BOM-based product imports</li><li>India and US market behaviour, including GST/tax handling</li><li>Cart, wishlist, orders, appointments, payments and invoices</li><li>Ring-size and exchange workflows, search and filtering</li><li>Database migrations, UAT and production troubleshooting</li></ul>
-            <ul class="tags" aria-label="Technologies"><li>Next.js</li><li>JavaScript</li><li>REST APIs</li><li>PostgreSQL</li><li>Prisma</li></ul>
+            <p class="dom">Jewellery E-commerce Platform</p>
+            <h3>PMJ Solitaire / PMJ Jewels</h3>
+            
+            <ul class="did"><li>Developed and enhanced the Next.js-based jewellery e-commerce platform, covering product management, customer accounts, cart, wishlist, orders, appointments and payments.</li><li>Implemented and maintained product pricing, BOM-based imports, India/US market functionality, GST/tax handling, search/filtering and payment integrations.</li></ul>
+            <ul class="tags" aria-label="Technologies"><li>Next.js</li><li>REST APIs</li></ul>
           </article><article class="card">
-            <p class="dom">Healthcare · Pharma</p>
-            <h3>Healthcare &amp; pharma management platform</h3>
-            <p>One of my largest projects: a CodeIgniter platform for pharma user hierarchies, doctors, orders and stockist and chemist workflows.</p>
-            <ul class="did"><li>User management, user hierarchy and employee mapping</li><li>Roles and permissions, questionnaires and policies</li><li>Order management with business-rule restrictions and credit notes</li><li>Notifications, SMTP/email fixes and external data synchronization</li><li>Data corrections, UAT and live deployment support</li></ul>
-            <ul class="tags" aria-label="Technologies"><li>PHP</li><li>CodeIgniter</li><li>MySQL</li><li>RBAC</li></ul>
+            <p class="dom">Healthcare / Pharma Management Platform</p>
+            <h3>Empower HH</h3>
+            
+            <ul class="did"><li>Developed and maintained a PHP/CodeIgniter-based healthcare and pharmaceutical platform covering admin modules, role-based permissions, orders, credit notes, stockist/chemist workflows, notifications and email integration.</li></ul>
+            <ul class="tags" aria-label="Technologies"><li>PHP</li><li>CodeIgniter</li><li>MySQL</li></ul>
           </article><article class="card">
-            <p class="dom">Education</p>
-            <h3>Learning management system</h3>
-            <p>An LMS for courses, batches, attendance, fees and certificates, with real-time notifications.</p>
-            <ul class="did"><li>Course, batch, user and fee management, reports and certificates</li><li>Trainer-based content completion and attendance-based student selection</li><li>Access rules for locked courses, assignments, live classes and Q&amp;A</li><li>Real-time notifications with Redis and Socket.IO</li></ul>
+            <p class="dom">Learning Management System</p>
+            <h3>Pucho Academy</h3>
+            
+            <ul class="did"><li>Developed LMS functionality including user management, reports, certificates and notifications.</li><li>Implemented real-time notifications using Redis and Socket.IO.</li></ul>
             <ul class="tags" aria-label="Technologies"><li>Laravel</li><li>Redis</li><li>Socket.IO</li></ul>
           </article><article class="card">
-            <p class="dom">Healthcare · Insurance</p>
-            <h3>Insurance eligibility utility</h3>
+            <p class="dom">Property Platform</p>
+            <h3>Sime Darby Property</h3>
+            
+            <ul class="did"><li>Developed REST APIs using Laravel with Passport authentication and integrated Salesforce and Azure services.</li></ul>
+            <ul class="tags" aria-label="Technologies"><li>Laravel</li><li>Passport</li><li>REST APIs</li></ul>
+          </article><article class="card">
+            <p class="dom">Healthcare · Insurance Eligibility</p>
+            <h3>Eligibility Utility</h3>
             <p>Eligibility processing on Availity, where I traced data problems in API responses and tuned the queries behind them.</p>
             <ul class="did"><li>Analysed Availity 271 responses with missing patient information</li><li>Investigated status discrepancies, HIC/Medicare ID and name-data issues</li><li>Profiled queries with Laravel Telescope</li><li>Improved an eligibility query by replacing a subquery with a LEFT JOIN</li></ul>
             <ul class="tags" aria-label="Technologies"><li>Laravel</li><li>MySQL</li><li>Availity API</li><li>Query tuning</li></ul>
           </article><article class="card">
-            <p class="dom">Healthcare</p>
-            <h3>Patient intake &amp; OCR platform</h3>
+            <p class="dom">Healthcare · Patient Intake</p>
+            <h3>LSPC / Allright</h3>
             <p>Patient collection, forms and visit notes, with OCR that reads ID and insurance cards.</p>
             <ul class="did"><li>Collection and patient forms, including existing-patient flows</li><li>ID and insurance-card OCR with data extraction and validation</li><li>Camera capture, image storage and display</li><li>Questionnaire and visit-note integration, requisition forms and PDF generation</li><li>Notifications, database migrations, UAT and live deployment</li></ul>
             <ul class="tags" aria-label="Technologies"><li>OCR</li><li>PDF generation</li><li>Forms</li><li>Migrations</li></ul>
           </article><article class="card">
-            <p class="dom">Real estate</p>
-            <h3>Property platform APIs</h3>
-            <p>Scalable APIs for a property business in Malaysia, connected to Salesforce and Azure-based services.</p>
-            <ul class="did"><li>REST APIs in Laravel with Passport authentication</li><li>Salesforce integration for business data</li><li>Azure-based service integration</li><li>API data synchronization workflows</li></ul>
-            <ul class="tags" aria-label="Technologies"><li>Laravel</li><li>Passport</li><li>REST APIs</li><li>Salesforce</li><li>Azure</li></ul>
-          </article><article class="card">
-            <p class="dom">Internal tools</p>
-            <h3>Cost management &amp; worklog systems</h3>
+            <p class="dom">Internal Tools</p>
+            <h3>Cost Management, LE Work Log &amp; EHS Work Log</h3>
             <p>Internal tools that track employee work, attendance and project costs, kept in sync through APIs and queues.</p>
             <ul class="did"><li>User and password synchronization APIs between systems</li><li>Queued background jobs for synchronization</li><li>Employee cost reports and project-wise task costs</li><li>Daily in/out, worklogs and hours validation by module and user type</li><li>Leave, holidays, productivity and person-utilization reports</li><li>Fixed CSV exports broken by stray output buffering</li></ul>
             <ul class="tags" aria-label="Technologies"><li>Laravel</li><li>Queues</li><li>REST APIs</li><li>Reporting</li></ul>
           </article><article class="card">
-            <p class="dom">Veterinary pharma</p>
-            <h3>Field operations system with WhatsApp</h3>
+            <p class="dom">Veterinary Pharma</p>
+            <h3>SG Vetcare (RMIS)</h3>
             <p>Chemist visits, check-in/out and MDVR reports, with order updates sent over WhatsApp and email.</p>
             <ul class="did"><li>WhatsApp integration: registration, display-name and delivery issues</li><li>Order details in WhatsApp messages and emails</li><li>Chemist visit check-in/out and MDVR report changes</li><li>Authentication, server cron investigation and Git setup</li><li>UAT and deployment support</li></ul>
             <ul class="tags" aria-label="Technologies"><li>WhatsApp API</li><li>Email</li><li>Cron</li></ul>
           </article></div>
         <h3 class="sub">More projects</h3>
-        <ul class="ledger"><li><p class="more-t"><b>Lighting product configurator</b><span class="dom">E-commerce</span></p><p>APIs and admin panel for interior and exterior lighting: categories, option groups, pricing by parts and fixture configuration.</p></li><li><p class="more-t"><b>Jewellery store admin</b><span class="dom">E-commerce</span></p><p>Admin panel for products, orders and customer data.</p></li><li><p class="more-t"><b>Print order management</b><span class="dom">E-commerce</span></p><p>Customers upload images, place print orders and track them.</p></li><li><p class="more-t"><b>Online ordering &amp; delivery</b><span class="dom">E-commerce</span></p><p>Online ordering and alcohol delivery for a business in Calgary, Canada. Frontend and backend.</p></li><li><p class="more-t"><b>Physiotherapy clinic admin</b><span class="dom">Healthcare</span></p><p>Admin panel for patient records, treatment history and appointments.</p></li><li><p class="more-t"><b>Physio &amp; sports-coaching platform</b><span class="dom">Healthcare</span></p><p>Coach and physiotherapist discovery with video content. Frontend and backend.</p></li><li><p class="more-t"><b>Phlebotomy facility management</b><span class="dom">Healthcare</span></p><p>Facility selection, admin-specific data, alerts and filters.</p></li><li><p class="more-t"><b>Online learning APIs</b><span class="dom">Education</span></p><p>API services for content delivery and user management on a Malaysian learning platform.</p></li><li><p class="more-t"><b>Photography studio CRM</b><span class="dom">Business software</span></p><p>Task manager, calendar, statistics, quotations, client communication, contracts and digital signatures. Frontend and backend.</p></li><li><p class="more-t"><b>Construction project management</b><span class="dom">Business software</span></p><p>Backend for project tracking, e-signatures, e-invoicing and supplier management.</p></li><li><p class="more-t"><b>Expo management platforms</b><span class="dom">Events</span></p><p>Four expo platforms (school &amp; office, medical &amp; pharma, houseware &amp; kitchenware, toys &amp; games) with registration, booth booking and expo management. Frontend and backend.</p></li><li><p class="more-t"><b>Home-loan application systems</b><span class="dom">Finance</span></p><p>Two systems for home-loan businesses: customer applications, staff tracking and processing.</p></li><li><p class="more-t"><b>Event poster generator APIs</b><span class="dom">Marketing</span></p><p>APIs that generate business posters automatically for events like Diwali, Holi and New Year.</p></li><li><p class="more-t"><b>Staff management panel</b><span class="dom">Internal tools</span></p><p>Internal panel for staff management and employee task tracking.</p></li><li><p class="more-t"><b>Business websites</b><span class="dom">Websites</span></p><p>Frontend for a welding-rod manufacturer, a restaurant site with menus, upgrades to an existing business site, and upkeep of my employer&#x27;s company website.</p></li></ul>
+        <ul class="ledger"><li><p class="more-t"><b>Hi-Lite Workshop</b><span class="dom">E-commerce · Lighting</span></p><p>APIs and admin panel for interior and exterior lighting products: categories, option groups, pricing by parts and fixture configuration.</p></li><li><p class="more-t"><b>Om Jewellers</b><span class="dom">E-commerce · Jewellery</span></p><p>Admin panel for products, orders and customer data.</p></li><li><p class="more-t"><b>Kinjkalp Multiprint</b><span class="dom">E-commerce · Printing</span></p><p>Order management for a printing service: customers upload images, place orders and track them.</p></li><li><p class="more-t"><b>Chill Bar</b><span class="dom">E-commerce · Delivery</span></p><p>Online ordering and alcohol delivery for a business in Calgary, Canada. Frontend and backend.</p></li><li><p class="more-t"><b>Prayas Physiotherapy</b><span class="dom">Healthcare</span></p><p>Admin panel for patient records, treatment history and appointments.</p></li><li><p class="more-t"><b>Mehtodd</b><span class="dom">Healthcare · Sports</span></p><p>Physiotherapy and sports-coaching platform with coach discovery and video content. Frontend and backend.</p></li><li><p class="more-t"><b>Phlebotomist</b><span class="dom">Healthcare</span></p><p>Facility selection, admin-specific data, alerts and filters for phlebotomy workflows.</p></li><li><p class="more-t"><b>e-Latih</b><span class="dom">Education</span></p><p>API services for content delivery and user management on a Malaysian online learning platform.</p></li><li><p class="more-t"><b>Studio Wed CRM</b><span class="dom">Business software</span></p><p>CRM for photographers: task manager, calendar, statistics, quotations, client communication, contracts and digital signatures. Frontend and backend.</p></li><li><p class="more-t"><b>Dignet</b><span class="dom">Business software</span></p><p>Construction project management backend: project tracking, e-signatures, e-invoicing and supplier management.</p></li><li><p class="more-t"><b>Scofex, Medphex, Afroware &amp; TAGXPO</b><span class="dom">Events</span></p><p>Expo platforms for school &amp; office, medical &amp; pharma, houseware &amp; kitchenware, and toys &amp; games expos: registration, booth booking and expo management. Frontend and backend.</p></li><li><p class="more-t"><b>DCF Home Loan &amp; Sasta Home Loan</b><span class="dom">Finance</span></p><p>Home-loan application systems: customer applications, staff tracking and processing.</p></li><li><p class="more-t"><b>Brand Kit</b><span class="dom">Marketing</span></p><p>APIs for a business poster maker that generates designs automatically for events like Diwali, Holi and New Year.</p></li><li><p class="more-t"><b>Ishan Industries</b><span class="dom">Internal tools</span></p><p>Internal panel for staff management and employee task tracking.</p></li><li><p class="more-t"><b>D&amp;H Secheron, Om Restaurant, Artology Plus &amp; MDIDM Infoway</b><span class="dom">Websites</span></p><p>Business websites: frontend for a welding-rod manufacturer, a restaurant site with menus, feature upgrades to an existing site, and upkeep of my employer&#x27;s company website.</p></li></ul>
         </div>
       </div>
     </section>
@@ -566,7 +564,7 @@ h2 {
         <p class="rail"><span>/stack</span></p>
         <div class="sec-body">
         <h2 id="stack-h">Stack</h2>
-        <div class="stack"><div class="grp"><h3>Backend</h3><ul class="chips"><li>PHP</li><li>Laravel</li><li>CodeIgniter</li><li>RESTful APIs</li><li>Eloquent ORM</li></ul></div><div class="grp"><h3>Auth &amp; integrations</h3><ul class="chips"><li>Laravel Passport</li><li>Laravel Sanctum</li><li>Salesforce</li><li>Azure</li><li>API integration</li></ul></div><div class="grp"><h3>Databases &amp; caching</h3><ul class="chips"><li>MySQL</li><li>PostgreSQL</li><li>Query optimization</li></ul></div><div class="grp"><h3>Background &amp; real-time</h3><ul class="chips"><li>Queues</li><li>Background jobs</li><li>Redis</li><li>Socket.IO</li><li>Data synchronization</li></ul></div><div class="grp"><h3>Frontend</h3><ul class="chips"><li>JavaScript</li><li>jQuery</li><li>Next.js</li><li>AJAX</li><li>HTML5</li><li>CSS3</li><li>Bootstrap</li></ul></div><div class="grp"><h3>Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>Composer</li><li>Postman</li><li>Laravel Telescope</li></ul></div></div>
+        <div class="stack"><div class="grp"><h3>Backend</h3><ul class="chips"><li>PHP</li><li>Laravel</li><li>CodeIgniter</li><li>RESTful APIs</li><li>Eloquent ORM</li><li>OOP</li><li>MVC</li></ul></div><div class="grp"><h3>Authentication &amp; Integrations</h3><ul class="chips"><li>Laravel Passport</li><li>Laravel Sanctum</li><li>Salesforce</li><li>Azure</li><li>API Integration</li></ul></div><div class="grp"><h3>Databases &amp; Caching</h3><ul class="chips"><li>MySQL</li><li>PostgreSQL</li><li>Query Optimization</li></ul></div><div class="grp"><h3>Frontend</h3><ul class="chips"><li>Laravel Blade</li><li>JavaScript</li><li>jQuery</li><li>Next.js</li><li>AJAX</li><li>HTML5</li><li>CSS3</li><li>Bootstrap</li></ul></div><div class="grp"><h3>Background Processing &amp; Real-time</h3><ul class="chips"><li>Queues</li><li>Background Jobs</li><li>Redis</li><li>Socket.IO</li><li>Data Synchronization</li></ul></div><div class="grp"><h3>Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>Composer</li><li>Postman</li></ul></div></div>
         </div>
       </div>
     </section>
@@ -576,7 +574,7 @@ h2 {
         <p class="rail"><span>/education</span></p>
         <div class="sec-body">
         <h2 id="education-h">Education</h2>
-        <div class="edu"><div class="edu-item"><h3>Master of Science in Information Technology</h3><p>Saurashtra University, Rajkot</p><p class="when">Apr 2022 – Mar 2024</p></div><div class="edu-item"><h3>Bachelor of Science in Information Technology</h3><p>Saurashtra University, Rajkot</p><p class="when">Apr 2019 – Mar 2022</p></div></div><p class="langs"><span>Languages</span>English, Hindi, Gujarati</p>
+        <div class="edu"><div class="edu-item"><h3>Master of Science (Information Technology &amp; Computer Application)</h3><p>Saurashtra University, Rajkot, Gujarat</p><p class="when">Apr 2022 – Mar 2024</p><p class="cgpa">CGPA: 8.58 / 10 (First Distinction)</p></div><div class="edu-item"><h3>Bachelor of Science (Information Technology)</h3><p>Saurashtra University, Rajkot, Gujarat</p><p class="when">Apr 2019 – Mar 2022</p><p class="cgpa">CGPA: 7.11 / 10 (First Class)</p></div></div><p class="langs"><span>Languages</span>English, Hindi, Gujarati</p>
         </div>
       </div>
     </section>
@@ -595,7 +593,7 @@ h2 {
           </div>
         </div>
         <div class="links"><a class="btn" href="https://www.linkedin.com/in/parth-s-pathak" target="_blank" rel="noopener">LinkedIn <span class="ext" aria-hidden="true">↗</span></a><a class="btn" href="https://github.com/parthpathak2001" target="_blank" rel="noopener">GitHub <span class="ext" aria-hidden="true">↗</span></a></div>
-        <p class="tz">Based in Ahmedabad, India · IST (UTC+05:30)</p>
+        <p class="tz">Based in Ahmedabad, Gujarat, India · IST (UTC+05:30)</p>
         </div>
       </div>
     </section>
